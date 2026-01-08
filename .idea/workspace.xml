@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c475c8b5-de37-4705-9e3c-396e6509e24e" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/product/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselHorizontal.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarruselList.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/img_sales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carrusel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carrusel.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/product/+page.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
         <option value="Navbar" />
         <option value="TypeScript File" />
         <option value="product.svelte" />
+        <option value="CarruselHorizontal" />
       </list>
     </option>
   </component>
@@ -48,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kotani/svelt/gilt/src/routes",
+    "last_opened_file_path": "/Users/kotani/svelt/gilt/src/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,12 +62,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/routes" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/routes" />
       <recent name="$PROJECT_DIR$/src/models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/product/[products_id]" />
       <recent name="$PROJECT_DIR$/src/routes/product" />
     </key>
   </component>
@@ -90,7 +92,7 @@
       <workItem from="1765876423720" duration="1780000" />
       <workItem from="1766965943523" duration="1180000" />
       <workItem from="1766967156047" duration="6401000" />
-      <workItem from="1766981199161" duration="36561000" />
+      <workItem from="1766981199161" duration="43723000" />
     </task>
     <servers />
   </component>
