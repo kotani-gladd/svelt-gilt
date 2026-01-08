@@ -1,5 +1,6 @@
 <script lang="ts">
-
+    import Carrusel from "./Carrusel.svelte";
+    export let product: any;
 </script>
 
 <style>
@@ -11,6 +12,7 @@
         leading-trim: CAP_HEIGHT;
         line-height: 15px;
         letter-spacing: 1px;
+        width: calc(100% - 20px);
     }
 
     .c-product-card__new-price {
@@ -39,26 +41,29 @@
 		padding-top: 22px;
         gap: 20px;
         display: grid;
+        padding-right: 15px;
+        padding-left: 15px;
 	}
     c-product-card__title {
 
     }
 </style>
 
-<div>
-	<img src="src/img/img_product.png" height="369" width="277"/>
+<div class="col-12 col-sm-6 col-md-4 col-lg-4 p-4">
+	<Carrusel {product}/>
 	<div class="c-product-card__content">
 		<div class="d-flex">
-			<div class="d-flex flex-wrap c-product-card__title">BRAND NAME BRAND NAMEBRAND NAMEBRAND NAME</div>
+			<div class="d-flex flex-wrap c-product-card__title">{product.name}</div>
 			<a><img src="src/img/icon_heart.png" height="15" width="17"/></a>
 		</div>
 		<div>
-			<div class="c-product-card__new-price">¥25,300</div>
-			<div class="c-product-card__line-price">¥55,300</div>
+			<div class="c-product-card__new-price">¥{product.new_price}</div>
+			<div class="c-product-card__line-price">¥{product.price}</div>
 		</div>
 		<div class="d-flex flex-row">
-			<div class="pe-1">M</div>
-			<div class="pe-1">L</div>
+			{#each product.size as size}
+				<div class="pe-1">{size.val}</div>
+			{/each}
 		</div>
 	</div>
 </div>

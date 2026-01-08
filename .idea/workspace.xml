@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c475c8b5-de37-4705-9e3c-396e6509e24e" name="変更" comment="" />
+    <list default="true" id="c475c8b5-de37-4705-9e3c-396e6509e24e" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Carrusel.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Filter.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductList.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tab.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/productStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +32,12 @@
       <list>
         <option value="_layout" />
         <option value="Navbar" />
+        <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php" />
   <component name="ProjectColorInfo">{
@@ -30,20 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kotani/svelt/gilt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/kotani/svelt/gilt/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kotani/svelt/gilt/src/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ssh.settings",
+    "ts.external.directory.path": "/Users/kotani/svelt/gilt/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/models" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +88,10 @@
       <option name="presentableId" value="Default" />
       <updated>1765870738442</updated>
       <workItem from="1765870739662" duration="3209000" />
-      <workItem from="1765876423720" duration="943000" />
+      <workItem from="1765876423720" duration="1780000" />
+      <workItem from="1766965943523" duration="1180000" />
+      <workItem from="1766967156047" duration="6401000" />
+      <workItem from="1766981199161" duration="30051000" />
     </task>
     <servers />
   </component>
