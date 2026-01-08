@@ -1,24 +1,38 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled">Disabled</a>
-				</li>
-			</ul>
-		</div>
+<script lang="ts">
+</script>
+
+<style>
+    .c-navbar__container {
+		background-color: black;
+		padding-left: 15px;
+        padding-right: 15px;
+    }
+    .c-navbar__item {
+        font-family: Noto Sans;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        leading-trim: CAP_HEIGHT;
+        line-height: 19px;
+        letter-spacing: 3%;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: #9D9D9D;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+</style>
+<div class="c-navbar__container">
+	<div class="row">
+		<a class="col c-navbar__item" href="/">TOP</a>
+		<a class="col c-navbar__item" href="/?type=women">WOMEN</a>
+		<a class="col c-navbar__item" href="/?type=men">MEN</a>
+		<a class="col c-navbar__item" href="/?type=kids">KIDS</a>
+		<a class="col c-navbar__item" href="/?type=beauty">BEAUTY</a>
+		<a class="col c-navbar__item" href="/?type=home">HOME</a>
+		<a class="col c-navbar__item" href="/?type=city">CITY</a>
 	</div>
-</nav>
+</div>
+
+

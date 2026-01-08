@@ -1,5 +1,7 @@
 <script lang="ts">
     import Carrusel from "./Carrusel.svelte";
+    import { goto } from '$app/navigation';
+
     export let product: any;
 </script>
 
@@ -51,7 +53,7 @@
 
 <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-4">
 	<Carrusel {product}/>
-	<div class="c-product-card__content">
+	<div class="c-product-card__content" on:click="{() => goto(`/product/${product.products_id}`)}">
 		<div class="d-flex">
 			<div class="d-flex flex-wrap c-product-card__title">{product.name}</div>
 			<a><img src="src/img/icon_heart.png" height="15" width="17"/></a>

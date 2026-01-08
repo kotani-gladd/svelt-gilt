@@ -7,9 +7,9 @@
   let select = 0
 
   onMount(() => {
-      if (product.products_id) {
+      if (product.id) {
           slider = new Siema({
-              selector: product.products_id,
+              selector: product.id,
               duration: 200,
               easing: 'ease-in-out',
               perPage: 1,
@@ -45,11 +45,11 @@
 </script>
 
 {#if product.img.length > 0}
-<div class="{product.products_id}" bind:this={product.products_id}>
+<div class="{product.id}" bind:this={product.id}>
 	{#each product.img as d}
 		<div class='slider'>
 			<div>
-				<img src="{d.val}" height="auto" width="100%" style=""/>
+				<img src="{d.val}" height="auto" width="100%" style="" loading="lazy"/>
 			</div>
 		</div>
 	{/each}

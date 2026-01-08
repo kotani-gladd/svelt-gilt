@@ -1,6 +1,7 @@
 export const db = [
   {
-    products_id: 1,
+    id: "1",
+    products_id: "1",
     name: "chamarra azul Levi's",
     marca: "Levi's",
     tipo: "chamarra",
@@ -19,7 +20,8 @@ export const db = [
     ]
   },
   {
-    products_id: 2,
+    id: "2",
+    products_id: "2",
     name: "chamarra azul Levi's",
     marca: "Levi's",
     tipo: "chamarra",
@@ -37,7 +39,8 @@ export const db = [
     ]
   },
   {
-    products_id: 3,
+    id: "3",
+    products_id: "3",
     name: "jeans azul Guess",
     marca: "Guess",
     tipo: "jeans",
@@ -55,7 +58,8 @@ export const db = [
     ]
   },
   {
-    products_id: 4,
+    id: "4",
+    products_id: "4",
     name: "jeans azul Guess",
     marca: "Guess",
     tipo: "jeans",
@@ -73,7 +77,8 @@ export const db = [
     ]
   },
   {
-    products_id: 5,
+    id: "5",
+    products_id: "5",
     name: "jeans azul Guess",
     marca: "Guess",
     tipo: "jeans",
@@ -91,7 +96,8 @@ export const db = [
     ]
   },
   {
-    products_id: 6,
+    id: "6",
+    products_id: "6",
     name: "vestido marron Guess",
     marca: "Guess",
     tipo: "vestido",
@@ -109,7 +115,8 @@ export const db = [
     ]
   },
   {
-    products_id: 7,
+    id: "7",
+    products_id: "7",
     name: "vestido marron Guess",
     marca: "Guess",
     tipo: "vestido",
@@ -127,7 +134,8 @@ export const db = [
     ]
   },
   {
-    products_id: 8,
+    id: "8",
+    products_id: "8",
     name: "vestido marron Guess",
     marca: "Guess",
     tipo: "vestido",
@@ -145,7 +153,8 @@ export const db = [
     ]
   },
   {
-    products_id: 9,
+    id: "9",
+    products_id: "9",
     name: "blusa amarillo Guess",
     marca: "Guess",
     tipo: "blusa",
@@ -163,7 +172,8 @@ export const db = [
     ]
   },
   {
-    products_id: 10,
+    id: "10",
+    products_id: "10",
     name: "blusa amarilla Guess",
     marca: "Guess",
     tipo: "blusa",
@@ -181,7 +191,8 @@ export const db = [
     ]
   },
   {
-    products_id: 11,
+    id: "11",
+    products_id: "11",
     name: "bolsa negro Guess",
     marca: "Guess",
     tipo: "bolsa",
@@ -199,7 +210,8 @@ export const db = [
     ]
   },
   {
-    products_id: 12,
+    id: "12",
+    products_id: "12",
     name: "bolsa negro Guess",
     marca: "Guess",
     tipo: "bolsa",
@@ -217,7 +229,8 @@ export const db = [
     ]
   },
   {
-    products_id: 13,
+    id: "13",
+    products_id: "13",
     name: "bolsa rosa Guess",
     marca: "Guess",
     tipo: "bolsa",
@@ -235,7 +248,8 @@ export const db = [
     ]
   },
   {
-    products_id: 14,
+    id: "14",
+    products_id: "14",
     name: "bolsa amarillo Guess",
     marca: "Guess",
     tipo: "bolsa",
