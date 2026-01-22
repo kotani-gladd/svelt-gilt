@@ -1,4 +1,5 @@
 <script lang="ts">
+import InputIcon from "./InputIcon.svelte";
 </script>
 
 <style>
@@ -22,8 +23,41 @@
         cursor: pointer;
         white-space: nowrap;
     }
+	.u-gap-20 {
+		display: flex;
+		gap:20px;
+	}
+	.u-p-v-10 {
+		padding-top: 10px;
+        padding-bottom: 10px;
+	}
 </style>
+
 <div class="c-navbar__container">
+	<div class="row u-p-v-10">
+		<div class="col-4 col-sm-4 d-flex d-md-none justify-content-start align-items-center">
+			<img src="src/img/icon_sandwitch.png" height="23" width="23"/>
+		</div>
+		<div class="col-4 col-sm-4 col-md-10 d-flex justify-content-center justify-content-md-start align-items-center u-gap-20">
+			<img src="src/img/gilt_white.png" height="16" width="79"/>
+			<div class="d-none d-md-flex align-items-center">
+				<input />
+			</div>
+			<div class="d-none d-md-flex align-items-center">カテゴリから探す</div>
+			<div class="d-none d-md-flex align-items-center">ブランドから探す</div>
+		</div>
+		<div class="col-4 col-sm-4 col-md-2 d-flex justify-content-end align-items-center u-gap-20">
+			<div class="">
+				<img src="src/img/icon_heart.png" height="18" width="18"/>
+			</div>
+			<div class="">
+				<img src="src/img/icon_bag.png" height="18" width="18"/>
+			</div>
+			<div class="">
+				<img src="src/img/icon_search.png" height="18" width="18"/>
+			</div>
+		</div>
+	</div>
 	<div class="row">
 		<a class="col c-navbar__item" href="/">TOP</a>
 		<a class="col c-navbar__item" href="/?type=women">WOMEN</a>
