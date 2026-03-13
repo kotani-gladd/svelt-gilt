@@ -2,11 +2,6 @@
     import { products } from "../stores/productStore";
     import Product from "./Product.svelte";
     import Filter from "./Filter.svelte";
-
-    export let products_data: any[] = [];
-
-    // Sincroniza la prop con el store
-    $: products.set(products_data);
 </script>
 
 <div class="row">
