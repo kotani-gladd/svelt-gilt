@@ -1,10 +1,11 @@
 <script lang="ts">
-
-  let buttonProps = {
-    class:[$$restProps.class]
-  }
+    let buttonProps = {
+        class: ['c-btn', $$restProps.class].filter(Boolean).join(' ')
+    }
 </script>
-<button on:click
+
+<button
+		on:click
 		on:mouseover
 		on:mouseenter
 		on:mouseleave
@@ -13,17 +14,24 @@
 </button>
 
 <style>
-    .primary{
-        color:green;
+    .c-btn {
+        cursor: pointer;
     }
-    .danger {
-        color:red;
+
+    /* Modificadores de variante */
+    :global(.c-btn--primary) {
+        color: green;
     }
-    .sm {
-        font-size:1em;
-        padding:0.1em;
+    :global(.c-btn--danger) {
+        color: red;
     }
-    .lg {
-        font-size:2em
+
+    /* Modificadores de tamaño */
+    :global(.c-btn--sm) {
+        font-size: 1em;
+        padding: 0.1em;
+    }
+    :global(.c-btn--lg) {
+        font-size: 2em;
     }
 </style>

@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c475c8b5-de37-4705-9e3c-396e6509e24e" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonDefault.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carrusel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carrusel.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDefault.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDefault.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarruselList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarruselList.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputIcon.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/gilt_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/gilt_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_app_store.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_app_store.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_bag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_filter.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_filter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_google_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_google_play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_lindkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_lindkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_order.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_sandwitch.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_sandwitch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icon_youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img_product.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/img_product.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img_sales.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/img_sales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo_gilt.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo_gilt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +104,7 @@
       <workItem from="1766981199161" duration="43723000" />
       <workItem from="1769147747867" duration="1891000" />
       <workItem from="1773274888095" duration="2098000" />
-      <workItem from="1773380094922" duration="4074000" />
+      <workItem from="1773380094922" duration="5040000" />
     </task>
     <servers />
   </component>
