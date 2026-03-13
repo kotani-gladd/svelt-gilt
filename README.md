@@ -1,38 +1,67 @@
-# sv
+# gilt
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+SvelteKit製のファッションECサイト。[`sv`](https://github.com/sveltejs/cli)をベースに構築。
 
-## Creating a project
+## 技術スタック
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [SvelteKit](https://kit.svelte.dev/) — フレームワーク
+- TypeScript — 型安全
+- Bootstrap — レイアウト・グリッド
+- Siema — カルーセル
+- AWS API Gateway — 商品データAPI
 
-```sh
-# create a new project in the current directory
-npx sv create
+## 環境変数
 
-# create a new project in my-app
-npx sv create my-app
+`.env` ファイルをプロジェクトルートに作成し、以下を設定してください：
+
+```env
+API_URL=https://your-api-url/prod/api/products
 ```
 
-## Developing
+## 開発環境のセットアップ
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+依存関係をインストール：
+
+```sh
+npm install
+```
+
+開発サーバーを起動：
 
 ```sh
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# ブラウザで自動的に開く場合
 npm run dev -- --open
 ```
 
-## Building
+## ビルド
 
-To create a production version of your app:
+本番用ビルドを作成：
 
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+ビルド結果のプレビュー：
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+npm run preview
+```
+
+## プロジェクト構成
+
+```
+src/
+├── components/       # UIコンポーネント
+├── models/           # データモデル
+├── routes/           # ページルーティング
+├── stores/           # Svelteストア
+└── lib/              # 共通アセット
+static/
+└── img/              # 静的画像ファイル
+```
+
+## デプロイ
+
+デプロイ先の環境に応じて[アダプター](https://svelte.dev/docs/kit/adapters)のインストールが必要な場合があります。
