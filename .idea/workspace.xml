@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c475c8b5-de37-4705-9e3c-396e6509e24e" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselHorizontal.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarruselList.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_sales.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonDefault.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carrusel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carrusel.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarruselList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarruselList.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputIcon.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gilt_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/gilt_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_app_store.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_app_store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_bag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_filter.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_filter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_google_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_google_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_lindkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_lindkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_order.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_sandwitch.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_sandwitch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon_youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon_youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img_product.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/img_product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img_sales.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/img_sales.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo_gilt.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo_gilt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/product/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product/[products_id]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +44,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="62" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -29,11 +55,17 @@
         <option value="TypeScript File" />
         <option value="product.svelte" />
         <option value="CarruselHorizontal" />
+        <option value="Button" />
+        <option value="+page.server.ts" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php" />
   <component name="ProjectColorInfo">{
@@ -46,8 +78,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/kotani/svelt/gilt/src/img",
     "node.js.detected.package.eslint": "true",
@@ -68,6 +103,7 @@
       <recent name="$PROJECT_DIR$/src/models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/routes/product/[products_id]" />
       <recent name="$PROJECT_DIR$/src/routes/product" />
     </key>
@@ -75,8 +111,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.115" />
-        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.115" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.31033.138" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.31033.138" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +129,9 @@
       <workItem from="1766965943523" duration="1180000" />
       <workItem from="1766967156047" duration="6401000" />
       <workItem from="1766981199161" duration="43723000" />
+      <workItem from="1769147747867" duration="1891000" />
+      <workItem from="1773274888095" duration="2098000" />
+      <workItem from="1773380094922" duration="4074000" />
     </task>
     <servers />
   </component>

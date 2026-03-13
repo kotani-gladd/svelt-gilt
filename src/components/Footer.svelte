@@ -1,5 +1,4 @@
 <script lang="ts">
-
 </script>
 
 <style>
@@ -7,25 +6,21 @@
         background-color: black;
         color: white;
     }
-
     .c-footer-text {
-        font-family: Noto Sans;
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         font-size: 12px;
-        leading-trim: CAP_HEIGHT;
         line-height: 19px;
-        letter-spacing: 3%;
+        letter-spacing: 0.03em;
     }
-
     .c-footer-span {
-        font-family: Noto Sans;
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         font-size: 10px;
-        leading-trim: CAP_HEIGHT;
         line-height: 16px;
-        letter-spacing: 3%;
+        letter-spacing: 0.03em;
     }
 </style>
 
@@ -34,15 +29,15 @@
 		<div class="row pb-3">
 			<div class="col-lg-7">
 				<div class="d-flex justify-content-center justify-content-md-start pb-2">
-					<img src="src/img/logo_gilt.png" height="16" width="80"/>
+					<img src="/img/logo_gilt.png" height="16" width="80" alt="GILT"/>
 				</div>
 			</div>
 			<div class="col-lg-5 text-lg-end">
 				<div class="d-flex justify-content-center justify-content-md-end gap-4">
-					<a class=""><img src="src/img/icon_instagram.png" height="19" width="19"/></a>
-					<a class=""><img src="src/img/icon_youtube.png" height="18" width="26"/></a>
-					<a class=""><img src="src/img/icon_lindkedin.png" height="17" width="17"/></a>
-					<a class=""><img src="src/img/icon_line.png" height="24" width="24"/></a>
+					<a><img src="/img/icon_instagram.png" height="19" width="19" alt="Instagram"/></a>
+					<a><img src="/img/icon_youtube.png" height="18" width="26" alt="YouTube"/></a>
+					<a><img src="/img/icon_lindkedin.png" height="17" width="17" alt="LinkedIn"/></a>
+					<a><img src="/img/icon_line.png" height="24" width="24" alt="LINE"/></a>
 				</div>
 			</div>
 		</div>
@@ -58,8 +53,8 @@
 			<div class="row pb-3">
 				<div class="col-12">
 					<div class="d-flex justify-content-center justify-content-md-end gap-4">
-						<div class=""><img src="src/img/icon_app_store.png" height="35" width="94"/></div>
-						<div class=""><img src="src/img/icon_google_play.png" height="35" width="116"/></div>
+						<div><img src="/img/icon_app_store.png" height="35" width="94" alt="App Store"/></div>
+						<div><img src="/img/icon_google_play.png" height="35" width="116" alt="Google Play"/></div>
 					</div>
 				</div>
 			</div>

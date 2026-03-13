@@ -1,31 +1,45 @@
 <script>
   import CarouselHorizontal from "./CarouselHorizontal.svelte";
 
-  let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+  let items = [
+    { brand: 'MARNI', days: '残り3日' },
+    { brand: 'GUCCI', days: '残り5日' },
+    { brand: 'PRADA', days: '残り2日' },
+    { brand: 'VERSACE', days: '残り1日' },
+    { brand: 'FENDI', days: '残り4日' },
+    { brand: 'DIOR', days: '残り6日' },
+  ];
 </script>
 
 <CarouselHorizontal autoplay="2000">
-	{#each colors as color, index (index)}
-		<div style="height:345px;width:345px;">
-			<img src="src/img/img_sales.png" height="345" width="345"/>
-			<div>
-				<div>MARNI</div>
-				<div>残り3日</div>
+	{#each items as item, index (index)}
+		<div class="slide-item">
+			<img src="/img/img_sales.png" height="345" width="345" alt={item.brand}/>
+			<div class="slide-info">
+				<div class="slide-brand">{item.brand}</div>
+				<div class="slide-days">{item.days}</div>
 			</div>
 		</div>
 	{/each}
-	<!--<span slot="left-control">Left</span>
-	<span slot="right-control">Right</span>-->
 </CarouselHorizontal>
 
 <style>
-    div {
-        height: 8rem;
-        width: 8rem;
+    .slide-item {
+        height: 345px;
+        width: 345px;
+        position: relative;
     }
-
-    span {
-        display: inline-block;
-        margin-top: 6rem;
+    .slide-info {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .slide-brand {
+        font-weight: bold;
+        color: white;
+    }
+    .slide-days {
+        color: white;
+        font-size: 12px;
     }
 </style>

@@ -1,111 +1,98 @@
 <script lang="ts">
-  import Siema from 'siema';
-  import { onMount } from 'svelte';
-  export let product: any;
+    import Siema from 'siema';
+    import { onMount } from 'svelte';
 
-  let slider,prev,next,radioSlider;
-  let select = 0
+    export let product: any;
 
-  onMount(() => {
-      if (product.id) {
-          slider = new Siema({
-              selector: product.id,
-              duration: 200,
-              easing: 'ease-in-out',
-              perPage: 1,
-              startIndex: 0,
-              draggable: true,
-              multipleDrag: true,
-              threshold: 20,
-              loop: true,
-              rtl: false,
-              onInit: () => {
-              },
-              onChange: () => {
-              },
-          }); //end Siema constructor
+    let sliderEl: HTMLElement;
+    let slider: any;
+    let radioSlider: any;
+    let select = 0;
 
-          prev = () => {
-              slider.prev()
-              if (select > 0) {
-                  select--
-              }
-          }
+    onMount(() => {
+        if (product?.img?.length > 1) {
+            slider = new Siema({
+                selector: sliderEl,
+                duration: 200,
+                easing: 'ease-in-out',
+                perPage: 1,
+                startIndex: 0,
+                draggable: true,
+                multipleDrag: true,
+                threshold: 20,
+                loop: true,
+                rtl: false,
+                onChange: () => {
+                    select = slider.currentSlide;
+                },
+            });
+        }
 
-          next = () => {
-              slider.next()
-              if (select >= 0) {
-                  select++
-              }
-          }
-      }
-  }) //end onMount
+        return () => {
+            slider?.destroy();
+        };
+    });
 
-
+    function goTo(i: number) {
+        slider?.goTo(i);
+        select = i;
+    }
 </script>
 
-{#if product.img.length > 0}
-<div class="{product.id}" bind:this={product.id}>
-	{#each product.img as d}
-		<div class='slider'>
-			<div>
-				<img src="{d.val}" height="auto" width="100%" style="" loading="lazy"/>
+{#if product?.img?.length > 0}
+	<div bind:this={sliderEl}>
+		{#each product.img as d}
+			<div class="slider">
+				<img src="{d.val}" height="auto" width="100%" loading="lazy" alt={product.name}/>
 			</div>
+		{/each}
+	</div>
+	{#if product.img.length > 1}
+		<div class="bullet">
+			{#each product.img as _, i}
+				<input
+						type="radio"
+						name="slider-radio-{product.id}"
+						value={i}
+						checked={select === i}
+						on:click={() => goTo(i)}
+						aria-label="スライド {i + 1}"
+				/>
+			{/each}
 		</div>
-	{/each}
-</div>
+	{/if}
 {/if}
-<div class='bullet'>
-	{#each product.img as d, i}
-		<input
-				bind:this={radioSlider}
-				type="radio"
-				id={i} name="slider-radio"
-				value={i}
-				checked = { select == i }
-				on:click= {() => {slider.goTo(i)}}
-		>
-	{/each}
-</div>
-<!--
-<button on:click={prev}>
-	prev
-</button>
-<button on:click={next}>
-	next
-</button>
--->
+
 <style>
     .slider {
-        background-color:white;
-        height:300px;
-        margin:1rem;
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        background-color: white;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
     .bullet {
-        width:100%;
-        display:flex;
-        justify-content:center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
     }
     input {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-
         border-radius: 50%;
         width: 8px;
         height: 8px;
-
-        background-color:lightgrey;
+        background-color: lightgrey;
         transition: 0.2s all linear;
         margin-right: 5px;
-
         position: relative;
         top: 4px;
+        cursor: pointer;
     }
     input:checked {
-        background-color:grey;
+        background-color: grey;
     }
 </style>

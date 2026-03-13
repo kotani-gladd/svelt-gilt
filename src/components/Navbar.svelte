@@ -1,21 +1,19 @@
 <script lang="ts">
-import InputIcon from "./InputIcon.svelte";
 </script>
 
 <style>
     .c-navbar__container {
-		background-color: black;
-		padding-left: 15px;
+        background-color: black;
+        padding-left: 15px;
         padding-right: 15px;
     }
     .c-navbar__item {
-        font-family: Noto Sans;
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         font-size: 12px;
-        leading-trim: CAP_HEIGHT;
         line-height: 19px;
-        letter-spacing: 3%;
+        letter-spacing: 0.03em;
         text-align: center;
         padding: 10px;
         text-decoration: none;
@@ -23,39 +21,33 @@ import InputIcon from "./InputIcon.svelte";
         cursor: pointer;
         white-space: nowrap;
     }
-	.u-gap-20 {
-		display: flex;
-		gap:20px;
-	}
-	.u-p-v-10 {
-		padding-top: 10px;
+    .u-gap-20 {
+        display: flex;
+        gap: 20px;
+    }
+    .u-p-v-10 {
+        padding-top: 10px;
         padding-bottom: 10px;
-	}
+    }
 </style>
 
 <div class="c-navbar__container">
 	<div class="row u-p-v-10">
 		<div class="col-4 col-sm-4 d-flex d-md-none justify-content-start align-items-center">
-			<img src="src/img/icon_sandwitch.png" height="23" width="23"/>
+			<img src="/img/icon_sandwitch.png" height="23" width="23" alt="menu"/>
 		</div>
 		<div class="col-4 col-sm-4 col-md-10 d-flex justify-content-center justify-content-md-start align-items-center u-gap-20">
-			<img src="src/img/gilt_white.png" height="16" width="79"/>
+			<img src="/img/gilt_white.png" height="16" width="79" alt="GILT"/>
 			<div class="d-none d-md-flex align-items-center">
-				<input />
+				<input aria-label="検索"/>
 			</div>
 			<div class="d-none d-md-flex align-items-center">カテゴリから探す</div>
 			<div class="d-none d-md-flex align-items-center">ブランドから探す</div>
 		</div>
 		<div class="col-4 col-sm-4 col-md-2 d-flex justify-content-end align-items-center u-gap-20">
-			<div class="">
-				<img src="src/img/icon_heart.png" height="18" width="18"/>
-			</div>
-			<div class="">
-				<img src="src/img/icon_bag.png" height="18" width="18"/>
-			</div>
-			<div class="">
-				<img src="src/img/icon_search.png" height="18" width="18"/>
-			</div>
+			<div><img src="/img/icon_heart.png" height="18" width="18" alt="お気に入り"/></div>
+			<div><img src="/img/icon_bag.png" height="18" width="18" alt="バッグ"/></div>
+			<div><img src="/img/icon_search.png" height="18" width="18" alt="検索"/></div>
 		</div>
 	</div>
 	<div class="row">
@@ -68,5 +60,3 @@ import InputIcon from "./InputIcon.svelte";
 		<a class="col c-navbar__item" href="/?type=city">CITY</a>
 	</div>
 </div>
-
-

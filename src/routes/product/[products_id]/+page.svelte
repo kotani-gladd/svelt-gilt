@@ -1,5 +1,6 @@
 <script lang="ts">
 
+import ButtonDefault from "../../../components/ButtonDefault.svelte";
 </script>
 <style>
 	.u-text-18 {
@@ -49,7 +50,7 @@
 <div class="container">
 	<div class="row pt-5">
 		<div class="col-6">
-			<img src="../../../img/img_product.png" height="369" width="277"/></div>
+			<img src="/img/img_product.png" height="369" width="277"/></div>
 		<div class="col-6 ps-5 pe-5 u-gap-50">
 			<div class="c-product-detail__title">
 				<div>
@@ -66,12 +67,23 @@
 
 				<div class="row">
 					<div class="col">
-						<img src="../../../img/img_product.png" height="87px" width="67px"/>
+						<img src="/img/img_product.png" height="87px" width="67px"/>
 					</div>
 				</div>
 			</div>
 
-			<div>サイズ</div>
+			<div>サイズ：選択してください</div>
+			<div>
+				<div>S</div>
+				<div>M</div>
+				<div>L</div>
+				<div>XL</div>
+			</div>
+			<div>
+				<ButtonDefault class="primary sm">
+				My Button
+				</ButtonDefault>
+			</div>
 		</div>
 	</div>
 </div>

@@ -7,47 +7,39 @@
 
 <style>
     .c-product-card__title {
-        font-family: Outfit;
+        font-family: 'Outfit', sans-serif;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         font-size: 12px;
-        leading-trim: CAP_HEIGHT;
         line-height: 15px;
         letter-spacing: 1px;
         width: calc(100% - 20px);
     }
-
     .c-product-card__new-price {
-        font-family: Outfit;
+        font-family: 'Outfit', sans-serif;
         font-weight: 500;
-        font-style: Medium;
+        font-style: normal;
         font-size: 17px;
-        leading-trim: CAP_HEIGHT;
         line-height: 20px;
         letter-spacing: 1px;
         color: #C9871B;
     }
-
     .c-product-card__line-price {
-        font-family: Outfit;
+        font-family: 'Outfit', sans-serif;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         font-size: 14px;
-        leading-trim: CAP_HEIGHT;
         line-height: 16px;
         letter-spacing: 1px;
         text-decoration: line-through;
     }
-
-	.c-product-card__content {
-		padding-top: 22px;
+    .c-product-card__content {
+        padding-top: 22px;
         gap: 20px;
         display: grid;
         padding-right: 15px;
         padding-left: 15px;
-	}
-    c-product-card__title {
-
+        cursor: pointer;
     }
 </style>
 
@@ -56,7 +48,7 @@
 	<div class="c-product-card__content" on:click="{() => goto(`/product/${product.products_id}`)}">
 		<div class="d-flex">
 			<div class="d-flex flex-wrap c-product-card__title">{product.name}</div>
-			<a><img src="src/img/icon_heart.png" height="15" width="17"/></a>
+			<a><img src="/img/icon_heart.png" height="15" width="17" alt="お気に入り"/></a>
 		</div>
 		<div>
 			<div class="c-product-card__new-price">¥{product.new_price}</div>

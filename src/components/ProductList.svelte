@@ -1,33 +1,31 @@
 <script lang="ts">
-    import {onMount} from "svelte";
-    import {db} from "../models/db";
-    import {products} from "../stores/productStore";
+    import { products } from "../stores/productStore";
     import Product from "./Product.svelte";
     import Filter from "./Filter.svelte";
 
-    onMount(() => {
-        products.set(db);
-    });
-</script>
+    export let products_data: any[] = [];
 
-<style>
-	.u-title {
-        font-family: Noto Sans;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 18px;
-        leading-trim: CAP_HEIGHT;
-        line-height: 20px;
-        letter-spacing: 1px;
-        text-align: center;
-		min-height: 100px;
-    }
-</style>
+    // Sincroniza la prop con el store
+    $: products.set(products_data);
+</script>
 
 <div class="row">
 	<h3 class="u-title d-flex align-items-center justify-content-center">トップス</h3>
-	<Filter {products}/>
+	<Filter />
 	{#each $products as product}
-		<Product {product}/>
+		<Product {product} />
 	{/each}
 </div>
+
+<style>
+    .u-title {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+        min-height: 100px;
+    }
+</style>

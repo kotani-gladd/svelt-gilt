@@ -1,4 +1,11 @@
+
+
 node_modules
+# IntelliJ / WebStorm
+.idea/
+
+# Dependencies
+node_modules/
 
 # Output
 .output
